@@ -1,0 +1,25 @@
+{
+"mainMenuText":
+[
+{	
+	"title": "Title",
+        "start": "Start"
+}
+],
+
+"conversation1":
+[
+{
+        "name": "Person1",
+        "dialogue": "blah blah blah blah"
+},
+{
+        "name": "Person2",
+        "dialogue": "ahhhh bluh bluh bluh bluh"
+},
+{
+        "name": "Person1",
+        "dialogue": "nuh uh!"
+}
+]
+}
