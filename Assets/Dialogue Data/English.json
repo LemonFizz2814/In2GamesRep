@@ -1,25 +1,25 @@
 {
-"mainMenuText":
-[
-{	
-	"title": "Title",
-        "start": "Start"
-}
-],
+        "mainMenuText":
+        [
+                {
+                        "title": "Title",
+                        "start": "Start"
+                }
+        ],
 
-"conversation1":
-[
-{
-        "name": "Person1",
-        "dialogue": "blah blah blah blah"
-},
-{
-        "name": "Person2",
-        "dialogue": "ahhhh bluh bluh bluh bluh"
-},
-{
-        "name": "Person1",
-        "dialogue": "nuh uh!"
-}
-]
+        "conversation1":
+        [
+                {
+                        "name": "Character1",
+                        "dialogue": "Hello there"
+                },
+                {
+                        "name": "Character2",
+                        "dialogue": "Ah General Kenobi"
+                },
+                {
+                        "name": "Character1",
+                        "dialogue": "Yes it is I"
+                }
+        ]
 }
