@@ -22,9 +22,8 @@ public class LocalizationManager : MonoBehaviour
     {
         English,
         Maori,
-        Sign_Language,
         Klingon,
-        // Add more languages as needed
+        // add more languages as needed
     }
 
     [System.Serializable]
@@ -59,7 +58,7 @@ public class LocalizationManager : MonoBehaviour
         UpdateLanguageDropDownList();
     }
 
-    // Update list if new languages have been added to the enum
+    // update list if new languages have been added to the enum
     void UpdateLanguageDropDownList()
     {
         languageDropdown.ClearOptions();
@@ -89,10 +88,10 @@ public class LocalizationManager : MonoBehaviour
         LoadLocalizedText();
     }
 
-    // Get text data from JSON file for language
+    // get text data from JSON file for language
     private void LoadLocalizedText()
     {
-        // Get string data for the language type
+        // get string data for the language type
         string jsonFilePath = Path.Combine(Application.dataPath, "Dialogue Data", currentLanguage.ToString() + ".json");
 
         if (File.Exists(jsonFilePath))
@@ -100,7 +99,6 @@ public class LocalizationManager : MonoBehaviour
             string jsonData = File.ReadAllText(jsonFilePath);
 
             localizedTextList = JsonUtility.FromJson<LocalizedTextList>(jsonData);
-            //Debug.Log("title: " + localizedTextList.mainMenuText[0].title);
         }
         else // language JSON file doesn't exist
         {
@@ -115,7 +113,7 @@ public class LocalizationManager : MonoBehaviour
         mainMenuManager.SetLanguageOfText();
     }
 
-    // Get functions
+    // get functions
     public MainMenuText GetMainMenuText()
     {
         return localizedTextList.mainMenuText[0];

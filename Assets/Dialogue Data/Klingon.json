@@ -2,24 +2,44 @@
         "mainMenuText":
         [
                 {
-                        "title": "Title",
-                        "start": "Start"
+                        "title": "mang",
+                        "start": "Hov"
                 }
         ],
 
         "conversation1":
         [
                 {
-                        "name": "Character1",
-                        "dialogue": "Hello there"
+                        "name": "Jim",
+                        "dialogue": "yu'. QoydI' 'oH QoylIj'e'"
                 },
                 {
-                        "name": "Character2",
-                        "dialogue": "Ah General Kenobi"
+                        "name": "Dwight",
+                        "dialogue": "vaj heSHa'chuqtaHvIS wa'DIch tlhobmeH"
                 },
                 {
-                        "name": "Character1",
-                        "dialogue": "Yes it is I"
+                        "name": "Jim",
+                        "dialogue": "ngeb. qIj"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "DaH yItlhutlhQo'. wa'maH wej taghDI' QIbmey lutu'lu'"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "'e' yIHar."
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "bernarDo je. jInIDbejta'. may'luch"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "QongDaq qar'a'? nuq Data'?"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "romuluSngan vIpabmeH jIghIH. loDnal yIghoS. vaj yabDajDaq chepbogh ghot'e' che'laHbe'"
                 }
         ]
 }

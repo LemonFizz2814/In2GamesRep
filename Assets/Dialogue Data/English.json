@@ -10,16 +10,36 @@
         "conversation1":
         [
                 {
-                        "name": "Character1",
-                        "dialogue": "Hello there"
+                        "name": "Jim",
+                        "dialogue": "Question. What kind of bear is best?"
                 },
                 {
-                        "name": "Character2",
-                        "dialogue": "Ah General Kenobi"
+                        "name": "Dwight",
+                        "dialogue": "That's a ridiculous question"
                 },
                 {
-                        "name": "Character1",
-                        "dialogue": "Yes it is I"
+                        "name": "Jim",
+                        "dialogue": "False. Black bear"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "That's debatable. There are basically two schools of thought"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "Fact: bears eat beets"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "Bears. Beets. Battlestar Galactica"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "Bears do not- what is going on? What are you doing?"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "Last week I was in a drugstore and I saw these glasses. For four dollars. And it only cost me seven dollars to recreate the rest of the ensemble and that's a grand total of eleven dollars"
                 }
         ]
 }

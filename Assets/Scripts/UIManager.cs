@@ -28,4 +28,14 @@ public class UIManager : MonoBehaviour
         dialogueMenuObject.SetActive(true);
         dialogueManager.RestartConversation();
     }
+
+    // get functions
+    public GameObject GetMainMenuObject()
+    {
+        return mainMenuObject;
+    }
+    public GameObject GetDialogueMenuObject()
+    {
+        return dialogueMenuObject;
+    }
 }

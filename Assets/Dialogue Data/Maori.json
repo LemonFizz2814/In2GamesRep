@@ -2,24 +2,44 @@
         "mainMenuText":
         [
                 {
-                        "title": "Title",
-                        "start": "Start"
+                        "title": "Taitara",
+                        "start": "Tīmata"
                 }
         ],
 
         "conversation1":
         [
                 {
-                        "name": "Character1",
-                        "dialogue": "Hello there"
+                        "name": "Jim",
+                        "dialogue": "Pātai. He aha te momo pea te pai?"
                 },
                 {
-                        "name": "Character2",
-                        "dialogue": "Ah General Kenobi"
+                        "name": "Dwight",
+                        "dialogue": "He patai poauau tena"
                 },
                 {
-                        "name": "Character1",
-                        "dialogue": "Yes it is I"
+                        "name": "Jim",
+                        "dialogue": "He teka. Pea pango"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "He tautohetohe tera. E rua nga kura whakaaro"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "He pono: ka kai nga pea i nga beets"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "Nga pea. Beets. Battlestar Galactica"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "Kaore nga pea e mahi- he aha kei te haere? Kei te aha koe?"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "I tera wiki i roto ahau i te toa rongoa ka kite ahau i enei mohiti. Mo te wha taara. A e whitu taara noa te utu ki a au ki te hanga ano i te toenga o te roopu, a ko te nui o te tekau ma tahi taara."
                 }
         ]
 }
