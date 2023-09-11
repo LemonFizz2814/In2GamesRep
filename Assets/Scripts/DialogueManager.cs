@@ -51,10 +51,10 @@ public class DialogueManager : MonoBehaviour
 
     public void RestartConversation()
     {
-        UpdateConversationText();
+        UpdateDialogueText();
     }
 
-    void UpdateConversationText()
+    void UpdateDialogueText()
     {
         Conversation1 conversation1 = localizationManager.GetConversation1()[currentSentence];
 
@@ -68,13 +68,14 @@ public class DialogueManager : MonoBehaviour
         HighlightCharacterTalking(characterIndex);
     }
 
+    // interate to next dialogue
     public void NextDialogue()
     {
         currentSentence++;
 
         if (currentSentence < maxSentences)
         {
-            UpdateConversationText();
+            UpdateDialogueText();
         }
     }
 

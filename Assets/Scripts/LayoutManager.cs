@@ -41,13 +41,13 @@ public class LayoutManager : MonoBehaviour
             bool isPortrait = aspectRatio <= 1;
 
             // move ui elements to their new position
-            foreach (Layout layout in mainMenuLayouts)
+            for (int i = mainMenuLayouts.Count - 1; i >= 0; i--)
             {
-                StartCoroutine(RepositionUIElement(isPortrait, layout));
+                StartCoroutine(RepositionUIElement(isPortrait, mainMenuLayouts[i]));
             }
-            foreach (Layout layout in dialogueLayouts)
+            for (int i = dialogueLayouts.Count - 1; i >= 0; i--)
             {
-                StartCoroutine(RepositionUIElement(isPortrait, layout));
+                StartCoroutine(RepositionUIElement(isPortrait, dialogueLayouts[i]));
             }
 
             // enable and disable layouts that aren't being displayed
@@ -71,6 +71,7 @@ public class LayoutManager : MonoBehaviour
         _layout.uiElement.offsetMin = Vector2.zero;
         _layout.uiElement.offsetMax = Vector2.zero;
 
+        // delay to give time for rectransform to update appropriately
         yield return new WaitForSeconds(0.1f);
 
         _layout.uiElement.SetParent(_layout.menu);
