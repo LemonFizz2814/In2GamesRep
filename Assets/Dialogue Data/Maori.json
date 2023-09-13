@@ -11,35 +11,59 @@
         [
                 {
                         "name": "Jim",
-                        "dialogue": "Pātai. He aha te momo pea te pai?"
+                        "dialogue": "Kia ora Dwight"
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "He patai poauau tena"
+                        "dialogue": "Ko wai koe?"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "He teka. Pea pango"
+                        "dialogue": "Ko wai ahau? Ko Jim ahau"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "Tekau ma rua tau matou e mahi tahi ana, he katakata a Dwight"
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "He tautohetohe tera. E rua nga kura whakaaro"
+                        "dialogue": "Ehara koe i a Jim, ehara a Jim i te Ahia"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "He pono: ka kai nga pea i nga beets"
-                },
-                {
-                        "name": "Jim",
-                        "dialogue": "Nga pea. Beets. Battlestar Galactica"
+                        "dialogue": "Kaore koe i tino mohio? Hei. Tena koe mo te kore e kite whakataetae"
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "Kaore nga pea e mahi- he aha kei te haere? Kei te aha koe?"
+                        "dialogue": "Tena ra Jim, He aha koe te korero mai ai ki ahau mo tera hokonga i mahia e koe inanahi?"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "I tera wiki i roto ahau i te toa rongoa ka kite ahau i enei mohiti. Mo te wha taara. A e whitu taara noa te utu ki a au ki te hanga ano i te toenga o te roopu, a ko te nui o te tekau ma tahi taara."
+                        "dialogue": "Te Whanganui-a-Tara? I hokona atu ki a ratou nga kete 10 o nga taonga reta 24-pauna. I korero ranei koe mo Krieger-Murphy?"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "Na te mea kare ano au i kati i tera engari kei te tumanako ahau kua tae mai he reta reo mai i a Paul Krieger e tatari ana ki ahau"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "Kaati, whakauruhia te kupuhipa katahi"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "I pehea koe i mohio ai? Kao kao kao. He korero tairongo tera mo nga kaimahi anake, kaua mo nga tangata o waho"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "I tapahia e Dwight kei te ngana ahau ki te mahi i konei"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "Kaore koe e mahi i konei! Ehara koe i a Jim!"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "Kare au e mohio ko wai koe, engari ehara koe i a Jim, ko Jim tenei! Aue taku-"
                 }
         ]
 }

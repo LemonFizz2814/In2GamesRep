@@ -39,8 +39,9 @@ public class DialogueManager : MonoBehaviour
 
     enum CharacterNames
     {
-        Character1,
-        Character2,
+        Jim,
+        Dwight,
+        // add more character names here
     }
 
     private void Start()
@@ -51,6 +52,7 @@ public class DialogueManager : MonoBehaviour
 
     public void RestartConversation()
     {
+        currentSentence = 0;
         UpdateDialogueText();
     }
 

@@ -11,35 +11,59 @@
         [
                 {
                         "name": "Jim",
-                        "dialogue": "Question. What kind of bear is best?"
+                        "dialogue": "Good morning Dwight"
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "That's a ridiculous question"
+                        "dialogue": "Who are you?"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "False. Black bear"
+                        "dialogue": "Who am I? I'm Jim"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "We have been working together for 12 years, weird joke Dwight"
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "That's debatable. There are basically two schools of thought"
+                        "dialogue": "You're not Jim, Jim is not Asian"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "Fact: bears eat beets"
-                },
-                {
-                        "name": "Jim",
-                        "dialogue": "Bears. Beets. Battlestar Galactica"
+                        "dialogue": "You seriously never noticed? Hey. Hats off to you for not seeing race"
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "Bears do not- what is going on? What are you doing?"
+                        "dialogue": "All right then Jim, Why don't you tell me about that sale you made yesterday?"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "Last week I was in a drugstore and I saw these glasses. For four dollars. And it only cost me seven dollars to recreate the rest of the ensemble and that's a grand total of eleven dollars"
+                        "dialogue": "Wellington Systems? Sold them 10 cases of 24-pound letter stock. Or were you talking about Krieger-Murphy?"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "Because I didn't close that one yet but I'm hoping I've got a voicemail from Paul Krieger waiting for me"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "Okay then, put in the password then"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "How did you know? No no no no. That is sensitive information for employees only, not for outsiders"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "Dwight cut it out I'm trying to work here"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "You don't work here! You're not Jim!"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "I don't know who you are, but you are not Jim, this is Jim! Oh my-"
                 }
         ]
 }

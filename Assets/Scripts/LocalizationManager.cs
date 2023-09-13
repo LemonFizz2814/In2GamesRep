@@ -113,7 +113,7 @@ public class LocalizationManager : MonoBehaviour
         mainMenuManager.SetLanguageOfText();
     }
 
-    // get functions
+    // GET functions
     public MainMenuText GetMainMenuText()
     {
         return localizedTextList.mainMenuText[0];

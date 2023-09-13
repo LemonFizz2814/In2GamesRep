@@ -11,35 +11,59 @@
         [
                 {
                         "name": "Jim",
-                        "dialogue": "yu'. QoydI' 'oH QoylIj'e'"
+                        "dialogue": "yIghoSDo'"
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "vaj heSHa'chuqtaHvIS wa'DIch tlhobmeH"
+                        "dialogue": "SoH 'Iv?"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "ngeb. qIj"
+                        "dialogue": "'Iv? vIparHa'"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "qaStaHvIS ram, tIqwIjvo' tlhIngan."
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "DaH yItlhutlhQo'. wa'maH wej taghDI' QIbmey lutu'lu'"
+                        "dialogue": "qaryoqdu' jIHbe'wI'"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "'e' yIHar."
-                },
-                {
-                        "name": "Jim",
-                        "dialogue": "bernarDo je. jInIDbejta'. may'luch"
+                        "dialogue": "qatlh bIyajbe''a'? jIHbej. bIneptaHvIS mIw'e' DaQoylaHbe'"
                 },
                 {
                         "name": "Dwight",
-                        "dialogue": "QongDaq qar'a'? nuq Data'?"
+                        "dialogue": "choyu'taHvIS, joHwI', loDnI'lI' boSuqrup'a'?"
                 },
                 {
                         "name": "Jim",
-                        "dialogue": "romuluSngan vIpabmeH jIghIH. loDnal yIghoS. vaj yabDajDaq chepbogh ghot'e' che'laHbe'"
+                        "dialogue": "nuqjatlh? DaHjaj ram chenmoHwI''e' SopmeH qengwI'pu' tlhIngan choraQ Dajatlh'a'?"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "'ach Qo'noSDaq jIlop 'e' vIpIHchugh, vaj Qo'noSDaq jIghoS 'e' vIpIHchugh."
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "'ochmey DapoSmoHchugh,"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "Heghpu''a' 'e' DaSov? ghobe'. Daqvam Data'bogh"
+                },
+                {
+                        "name": "Jim",
+                        "dialogue": "'ej qatlh qo'ghachwIj vISaHchu'be'"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "batlh 'e' yImev. Sutay'!"
+                },
+                {
+                        "name": "Dwight",
+                        "dialogue": "SoHvaD Qu' vISovbe'! wo'Daq jIH."
                 }
         ]
 }

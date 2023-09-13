@@ -25,8 +25,8 @@ public class UIManager : MonoBehaviour
     public void DisplayDialogueMenu()
     {
         mainMenuObject.SetActive(false);
-        dialogueMenuObject.SetActive(true);
         dialogueManager.RestartConversation();
+        dialogueMenuObject.SetActive(true);
     }
 
     // get functions
