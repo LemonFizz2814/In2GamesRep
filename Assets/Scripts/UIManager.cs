@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
+        Screen.SetResolution(2560, 1440, FullScreenMode.ExclusiveFullScreen);
         DisplayMainMenu();
     }
 

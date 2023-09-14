@@ -17,6 +17,9 @@ public class LocalizationManager : MonoBehaviour
 
     [Header("Script reference")]
     [SerializeField] private MainMenuManager mainMenuManager;
+    
+    [Header("JSON reference")]
+    [SerializeField] private TextAsset[] jsonFiles;
 
     public enum Language
     {
@@ -92,9 +95,9 @@ public class LocalizationManager : MonoBehaviour
     private void LoadLocalizedText()
     {
         // get string data for the language type
-        string jsonFilePath = Path.Combine(Application.dataPath, "Dialogue Data", currentLanguage.ToString() + ".json");
+        //string jsonFilePath = Path.Combine(Application.dataPath, "Dialogue Data", currentLanguage.ToString() + ".json");
 
-        if (File.Exists(jsonFilePath))
+        /*if (File.Exists(jsonFilePath))
         {
             string jsonData = File.ReadAllText(jsonFilePath);
 
@@ -103,7 +106,9 @@ public class LocalizationManager : MonoBehaviour
         else // language JSON file doesn't exist
         {
             Debug.LogWarning($"Localization JSON file not found for {jsonFilePath}");
-        }
+        }*/
+
+        localizedTextList = JsonUtility.FromJson<LocalizedTextList>(jsonFiles[(int)currentLanguage].text);
 
         SetLanguageOfText();
     }
